@@ -1,0 +1,104 @@
+/* CSS RESET */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#title_bar {
+    background-color: black;
+    color: white;
+    Height: 60px;
+    margin: 0px 300px;
+    padding: 10px 10px;
+}
+#feed_bar {
+    Height: 60px;
+    margin: 0px 300px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+#columns {
+    display: flex;
+    /* justify-content:space-between; */
+    margin: 0px 200px;
+}
+#column_left {
+    flex: 1;
+    margin: 0px 0px 0px 50px;
+}
+#column_right {
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    flex: 4;
+    margin: 0px 0px 0px 50px;
+}
+#left_box {
+    /* background-color: blanchedalmond; */
+    border: 2px solid gray;
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px 0px 50px;
+    /* padding: 0px 0px 0px 40px; */
+}
+img {
+    width: 80px;
+}
+.box {
+    /* background-color: aqua; */
+    border: 2px solid gray;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction:column;
+    margin: 30px 0px 0px 50px;
+}
+.box_top {
+    padding: 20px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.box_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px 0px 20px;
+}
+.some_user {
+    margin: 0px 30px 0px 0px;
+}
+/* #btn {
+    width: 60px;
+    height: 30px;
+    background-color: goldenrod;
+    font-weight: bold;
+    font-size: large;
+} */
+#top_btn {
+    width: 60px;
+    height: 30px;
+    background-color:gold;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 4px 4px black;
+}
+#mid_btn {
+    width: 60px;
+    height: 30px;
+    background-color: gold;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 4px 4px black;
+}
+#bottom_btn {
+    width: 60px;
+    height: 30px;
+    background-color: gold;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 4px 4px black;
+}
